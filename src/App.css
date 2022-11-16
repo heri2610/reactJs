@@ -1,0 +1,414 @@
+/*----------------------------------------
+# Navbar
+----------------------------------------*/
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.container-fluid.navbar-content {
+  width: 1168px;
+}
+
+#offcanvasNavbar-expand-lg {
+  width: 50%;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .btn {
+    width: max-content;
+    margin-top: 8px;
+  }
+  .navbar-nav {
+    align-items: flex-start;
+  }
+}
+
+/*----------------------------------------
+# main / hero section
+----------------------------------------*/
+#main {
+  background-color: #f1f3ff;
+}
+#main .container {
+  width: 100%;
+  background-color: #f1f3ff;
+  margin-top: 72px;
+}
+
+#main .position-relative {
+  width: 1440px;
+}
+
+.welcome {
+  height: 407px;
+}
+
+.img-car {
+  background-color: #f1f3ff;
+  width: 100%;
+}
+
+.img-car img {
+  right: 0;
+  max-width: 704px;
+  height: 407px;
+}
+
+.slogan {
+  font-size: 2.25rem;
+}
+
+.welcome-text .fw-light {
+  max-width: 468px;
+}
+
+@media (max-width: 992px) {
+  .welcome-text {
+    margin: 0;
+  }
+  .img-car img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 16px;
+    background-color: #f1f3ff;
+  }
+  .welcome {
+    height: fit-content;
+    margin-top: 20px;
+  }
+}
+
+/*----------------------------------------
+# our service section
+----------------------------------------*/
+#our-service .container {
+  width: 1027px;
+  height: 428px;
+  margin-top: 104px;
+  padding: 0 16px;
+}
+
+.img-service img {
+  width: 459px;
+  height: 428px;
+}
+
+.checklist {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 992px) {
+  .img-service img {
+    max-width: 100%;
+    height: auto;
+  }
+  #our-service .container {
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  #our-service .container {
+    margin-top: 280px;
+  }
+  .img-service {
+    margin: 0 2.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 578px) {
+  #our-service .container {
+    margin-top: 450px;
+  }
+  .img-service {
+    margin: 0 2.5rem 1.5rem;
+  }
+}
+
+/*----------------------------------------
+# why us section
+----------------------------------------*/
+.why-us .container {
+  margin-top: 60px;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.card-body {
+  padding: 24px;
+}
+
+.card img {
+  width: 32px;
+  margin: 24px 0 0 24px;
+}
+
+@media (min-width: 992px) {
+  .why-us .container {
+    margin-top: 100px;
+    width: 1168px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .list-items .row .col {
+    padding: 0 1rem;
+  }
+}
+
+/*----------------------------------------
+# testimonial section
+----------------------------------------*/
+#testimonial .containers {
+  width: 100%;
+  margin: 60px auto 0;
+}
+
+.item {
+  height: auto;
+  width: 100%;
+  background-color: #f1f3ff;
+  padding: 40px 32px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.owl-carousel .owl-nav {
+  width: 100%;
+}
+
+.owl-carousel {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#owlCarousel .owl-prev,
+#owlCarousel .owl-next {
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+}
+
+#owlCarousel .owl-prev:hover,
+#owlCarousel .owl-next:hover {
+  background-color: #5cb85f;
+  color: #fff;
+}
+
+#owlCarousel .owl-item img {
+  display: inline;
+  width: auto;
+}
+
+img.profile-pict {
+  width: 80px;
+  height: 80px;
+}
+
+#rate {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  #testimonial .containers {
+    width: 1320px;
+    margin: 100px auto 0;
+  }
+  .item {
+    height: 270px;
+    width: 619px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .owl-carousel .owl-item img {
+    margin-right: 46px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rate {
+    justify-content: center;
+    margin: 24px auto;
+  }
+  .owl-carousel {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+  .item {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+/*----------------------------------------
+# getting started 
+----------------------------------------*/
+#getting-started {
+  padding: 0 16px;
+}
+
+#getting-started .container {
+  margin-top: 60px;
+  background-color: #0d28a6;
+  border-radius: 13px;
+  padding: 64px 58px;
+  min-width: 100%;
+}
+
+#getting-started .container .desc {
+  margin-bottom: 52px;
+}
+
+@media (min-width: 992px) {
+  #getting-started .container {
+    margin-top: 100px;
+    min-width: auto;
+    width: 1168px;
+  }
+}
+
+@media (max-width: 768px) {
+  #getting-started .slogan {
+    font-size: 1.5rem;
+  }
+}
+
+/*----------------------------------------
+# FAQ Section
+----------------------------------------*/
+.faq .container {
+  margin-top: 60px;
+}
+
+.faq {
+  padding: 0 16px;
+}
+
+.accordion .accordion-item {
+  border: none;
+}
+
+button.accordion-button {
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+}
+
+.accordion-body {
+  border: 1px solid #d4d4d4;
+  border-radius: 0 0 4px 4px;
+}
+
+@media (min-width: 992px) {
+  .faq .container {
+    margin-top: 100px;
+    width: 1168px;
+  }
+  .accordion {
+    width: 668px;
+  }
+}
+
+/*----------------------------------------
+# footer Section
+----------------------------------------*/
+footer .container {
+  margin: 60px auto;
+  padding: 0 16px;
+}
+
+footer {
+  padding: 0 16px;
+}
+
+footer .col {
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  footer .container {
+    width: 1168px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+
+  footer .copyright {
+    padding-left: 30px;
+  }
+  footer .navigation {
+    padding-left: 100px;
+  }
+}
+
+/*----------------------------------------
+# Search Car
+----------------------------------------*/
+#search .container {
+  width: 75%;
+  margin-top: -50px;
+  position: relative;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+#search label,
+#search input,
+#search .form-select {
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+#search label {
+  font-family: 'Rubik', sans-serif;
+}
+
+#search .button-global {
+  font-size: 14px;
+  margin-left: 14px;
+  font-weight: normal;
+}
+
+.filter {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+}
+
+.search-card img {
+  border-radius: 8px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.search-card svg {
+  margin-right: 10px;
+}
+
+.searchPage {
+  display: block;
+}

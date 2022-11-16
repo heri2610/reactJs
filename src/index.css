@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+p {
+  font-size: 14px;
+}
+
+p.title-section {
+  font-size: 1.5rem;
+}
+
+.btn.btn-success {
+  background-color: #5cb85f;
+  border-radius: 2px;
+  border: none;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+
+.logo-brand {
+  width: 100px;
+  height: 34px;
+  background-color: #0d28a6;
+}
